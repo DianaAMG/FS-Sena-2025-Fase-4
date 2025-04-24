@@ -1,0 +1,43 @@
+{
+  "hash": "15a8107d",
+  "configHash": "2e1000e2",
+  "lockfileHash": "4678578b",
+  "browserHash": "ffda3f97",
+  "optimized": {
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "a4a5028b",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "9b4dd63e",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "ccfb60bc",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "9df90fee",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-KYRGGYQL": {
+      "file": "chunk-KYRGGYQL.js"
+    },
+    "chunk-HMZSX6NM": {
+      "file": "chunk-HMZSX6NM.js"
+    },
+    "chunk-FWG627IE": {
+      "file": "chunk-FWG627IE.js"
+    }
+  }
+}
