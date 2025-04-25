@@ -18,6 +18,7 @@ declare var M: any;
   providers: [EmpleadoService],
 })
 export class EmpleadosComponent implements OnInit {
+
   constructor(public empleadoService: EmpleadoService) {}
 
   ngOnInit(): void {}
