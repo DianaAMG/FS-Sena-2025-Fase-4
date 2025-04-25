@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 import { EmpleadosComponent } from './components/empleados/empleados.component';
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  /*imports: [RouterOutlet],*/
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  imports: [EmpleadosComponent],
+  standalone: true,
+  imports: [CommonModule, EmpleadosComponent],
+  template: '<app-empleados></app-empleados>'
 })
 export class AppComponent {
-  title = 'frontend';
+  title = 'frontend';
 }
